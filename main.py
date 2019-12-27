@@ -2,12 +2,12 @@ print("\t\t\tLet's get started!\n")
 
 def tic_tac_toe():
   select = {"1": "-", 
-            "2": "-", 
+            "2" : "-", 
             "3": "-",
             "4": "-", 
             "5": "-", 
             "6": "-",
-            "7": "-",
+            "7": "-", 
             "8": "-", 
             "9": "-"}
 
@@ -194,11 +194,21 @@ def tic_tac_toe():
 
       break
 
-    elif select["3"] == choose1 and select["6"] == choose1 and select["7"] == choose1:
+    elif select["3"] == choose1 and select["6"] == choose1 and select["9"] == choose1:
+      print("YeYYY You won this game") 
+
+      break
+    
+      
+    elif select["3"] == choose1 and select["5"] == choose1 and select["7"] == choose1:
       print("YeYYY You won this game") 
 
       break
 
+    elif select["1"] == choose1 and select["5"] == choose1 and select["9"] == choose1:
+      print("YeYYY You won this game") 
+
+      break     
 
 
     elif select["1"] == choose2 and select["2"] == choose2 and select["3"] == choose2:
@@ -221,10 +231,7 @@ def tic_tac_toe():
 
       break
 
-    elif select["1"] == choose1 and select["5"] == choose1 and select["9"] == choose1:
-      print("YeYYY You won this game") 
-
-      break    
+     
 
     elif select["2"] == choose2 and select["5"] == choose2 and select["8"] == choose2:
       print("YeYYY You won this game") 
