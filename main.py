@@ -15,7 +15,7 @@ def tic_tac_toe():
   + "\n" + select["4"] + "\t" + select["5"] + "\t" + select["6"]
   + "\n" + select["7"] + "\t" + select["8"] + "\t" + select["9"])
 
-  print("\nPlease enter Capital 'O' and 'X' to play this game and enjoy your game....!")
+  print("\nPlease enter Capital 'O' and 'X' to play this game and enjoy your it....!")
   choose1 = "O"
   choose2 = "X"
   
