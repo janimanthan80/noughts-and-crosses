@@ -2,7 +2,7 @@ print("\t\t\tLet's get started!\n")
 
 def tic_tac_toe():
   select = {"1": "-", 
-            "2" : "-", 
+            "2": "-", 
             "3": "-",
             "4": "-", 
             "5": "-", 
